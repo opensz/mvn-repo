@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.szopen.bpm</groupId>
+		<artifactId>bpm2</artifactId>
+		<version>2.5.2</version>
+	</parent>
+	<artifactId>bpm2-web</artifactId>
+	<packaging>pom</packaging>
+	<name>bpm2 web </name>
+	<dependencies>
+		<dependency>
+			<groupId>org.szopen.bpm</groupId>
+			<artifactId>bpm2-core</artifactId>
+		</dependency>
+	</dependencies>
+
+	<modules>	
+		<module>webjsp</module>
+		<module>webres</module>
+		<module>webjars</module>
+		<module>media</module>
+		<module>modeler</module>		
+		<module>mobile</module>		
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<warSourceDirectory>src/main/web</warSourceDirectory>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<packagingExcludes>WEB-INF/lib/**</packagingExcludes>
+					<warSourceExcludes>**/.DS_Store,js/**,styles/**,images/**,media/**,diagram-viewer/**,editor-app/**,commons/**,WEB-INF/view/mobile/**,WEB-INF/view/platform/**</warSourceExcludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
