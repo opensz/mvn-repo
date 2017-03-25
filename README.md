@@ -6,7 +6,7 @@ Simply add the repository to your build.gradle file:
 ```groovy
 repositories {
     maven {
-        url 'https://raw.githubusercontent.com/szopen/mvn-repo/master/'
+        url 'https://raw.githubusercontent.com/opensz/mvn-repo/master/'
     }
     mavenCentral()
 }
@@ -14,7 +14,8 @@ repositories {
 
 
 ```mvn
-https://github.com/szopen/mvn-repo/blob/master
+https://github.com/opensz/mvn-repo/blob/master
+
 ```
 
 License:
