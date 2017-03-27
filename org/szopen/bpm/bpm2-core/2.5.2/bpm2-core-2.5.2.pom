@@ -642,7 +642,7 @@
 		<repository>
 			<id>szopen-public-repository-group</id>
 			<name>SzOpen Public Repository Group</name>
-			<url>https://raw.githubusercontent.com/szopen/mvn-repo/master/</url>
+			<url>https://raw.githubusercontent.com/opensz/mvn-repo/master/</url>
 			<layout>default</layout>
 			<releases>
 				<enabled>true</enabled>
