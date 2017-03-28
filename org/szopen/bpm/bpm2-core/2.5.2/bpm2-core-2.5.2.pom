@@ -182,13 +182,13 @@
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 		</dependency>
-
-   
-
+        
+		<!--
 		<dependency>
 			<groupId>cn.guoyukun.jdbc</groupId>
 			<artifactId>db2jcc</artifactId>
 		</dependency>
+		-->
 
 
 		<dependency>
