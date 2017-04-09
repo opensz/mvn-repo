@@ -6,7 +6,7 @@
   <name>Activiti - BPMN Converter</name>
   <groupId>org.szopen.bpm</groupId>
   <artifactId>activiti-bpmn-converter</artifactId>
-  <version>5.15.5</version>
+  <version>5.15.1-ext</version>
 
   <parent>
     <groupId>org.activiti</groupId>
